@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Cw.Controllers.Erfassung</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+            .error {border: solid 1px red;}
+            .error_text { color: red; font-size: 10px;}
+            td {padding: 3px;}
+        </style>
+	</head>
+	<body>
+	    <h1>Cw.Controllers.Erfassung Demo</h1>
+		<div id='erfassung'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('cw/controllers/erfassung',function(){
+				
+				$('#erfassung').cw_erfassung();
+			})
+		</script>
+	</body>
+</html>
