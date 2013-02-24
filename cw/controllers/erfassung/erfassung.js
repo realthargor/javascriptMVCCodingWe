@@ -12,6 +12,7 @@ $.Controller('Cw.Controllers.Erfassung',
 /** @Static */
 {
 	defaults : {
+            // FIXME Observer-Pattern funktioniert nicht
         model :$.O(new Cw.Models.Kunde()),
         // FIXME falsche pfade werden nicht mit einer exception gemeldet
         templatePersonendaten : "./views/personendaten.ejs",
