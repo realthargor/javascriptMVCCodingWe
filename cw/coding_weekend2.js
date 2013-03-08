@@ -5,6 +5,7 @@ steal(
         'jquery/view',
         // FIXME diese Teile muss man selbst einbinden damit die Templates funktionieren
         'jquery/view/ejs',
+        // FIXME helper funktionieren nicht
         'jquery/view/helpers',
         function() {					// configure your application
             var kundeModel = new Cw.Models.Kunde();
